@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08080d">
+<link rel="manifest" href="manifest.webmanifest">
+<title>LEVELUP — Player System</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">THE SYSTEM</div>
+      <h1 id="screenTitle">Welcome, Player</h1>
+    </div>
+    <button class="iconBtn" id="notifyBtn">♢</button>
+  </header>
+
+  <main id="main"></main>
+
+  <nav class="bottomNav">
+    <button data-screen="system" class="nav active">⌂<span>System</span></button>
+    <button data-screen="quests" class="nav">⚔<span>Quests</span></button>
+    <button data-screen="social" class="nav">◉<span>Social</span></button>
+    <button data-screen="messages" class="nav">✉<span>Messages</span></button>
+    <button data-screen="profile" class="nav">◉<span>Profile</span></button>
+  </nav>
+</div>
+
+<div id="modal" class="modal hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>

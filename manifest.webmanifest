@@ -1,0 +1,9 @@
+{
+  "name": "LEVELUP \u2014 Player System",
+  "short_name": "LEVELUP",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#07070b",
+  "theme_color": "#08080d",
+  "description": "Turn real-life goals into an RPG progression system."
+}
